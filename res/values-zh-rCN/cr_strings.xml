@@ -30,6 +30,8 @@
     <string name="recents_category_summary">修改后台</string>
     <string name="misc_category_title">杂项</string>
     <string name="misc_category_summary">其他选项</string>
+    <string name="about_category_title">关于</string>
+    <string name="about_category_summary">关于 ortus launcher</string>
     <string name="general_category_title">一般</string>
     <string name="interface_category_title">界面</string>
     <string name="quickspace_category_title">快捷空间</string>
@@ -55,18 +57,6 @@
     <!-- All apps themed icons -->
     <string name="pref_themed_icons_title">主题图标</string>
     <string name="pref_themed_icons_summary">依照主屏幕上使用的主题图标</string>
-    <!-- Trust apps -->
-    <string name="trust_apps_manager_name">隐藏和保护应用</string>
-    <string name="trust_apps_auth_manager">解锁以管理隐藏和受保护的应用</string>
-    <string name="trust_apps_auth_open_app">验证以开启 %1$s</string>
-    <string name="trust_apps_loading">载入中\u2026</string>
-    <string name="trust_apps_no_lock_error">请设置一个安全锁定屏幕以限制应用访问</string>
-    <string name="trust_apps_help">帮助</string>
-    <string name="trust_apps_info_hidden">从抽屉中隐藏应用和其他小部件</string>
-    <string name="trust_apps_info_protected">需要经过认证才能从启动器打开受保护的应用</string>
-    <!-- Suggestions -->
-    <string name="suggestion_pref_screen_title">建议</string>
-    <string name="suggestion_pref_screen_desc">适用于所有应用程序和主屏幕的建议</string>
     <!-- Pause apps shortcut -->
     <string name="pause">暂停</string>
     <string name="pause_apps_dialog_title">暂停 %1$s？</string>
@@ -79,6 +69,18 @@
     <string name="work_apps_enable_btn_text_custom">开启工作应用</string>
     <string name="work_apps_paused_info_body_custom">您的工作应用无法发送通知、获取耗电和访问位置信息</string>
     <string name="work_apps_paused_telephony_unavailable_body_custom">您的工作应用无法接收电话或短信，向您发送通知，消耗电量或获取您的位置</string>
+    <!-- Trust apps -->
+    <string name="trust_apps_manager_name">隐藏和保护应用</string>
+    <string name="trust_apps_auth_manager">解锁以管理隐藏和受保护的应用</string>
+    <string name="trust_apps_auth_open_app">验证以开启 %1$s</string>
+    <string name="trust_apps_loading">载入中\u2026</string>
+    <string name="trust_apps_no_lock_error">请设置一个安全锁定屏幕以限制应用访问</string>
+    <string name="trust_apps_help">帮助</string>
+    <string name="trust_apps_info_hidden">从抽屉中隐藏应用和其他小部件</string>
+    <string name="trust_apps_info_protected">需要经过认证才能从启动器打开受保护的应用</string>
+    <!-- Suggestions -->
+    <string name="suggestion_pref_screen_title">建议</string>
+    <string name="suggestion_pref_screen_desc">适用于所有应用程序和主屏幕的建议</string>
     <!-- Restart launcher -->
     <string name="pref_restart_title">重新启动</string>
     <string name="pref_restart_summary">手动重启启动器以应用未生效的设置</string>
@@ -104,6 +106,13 @@
     <string name="recents_app_killed">已停止应用程序</string>
     <!-- Row Height -->
     <string name="row_height_title">行高</string>
+    <!-- Hotseat Background -->
+    <string name="hotseat_bg_title">小部件背景</string>
+    <string name="hotseat_bg_summary">添加半透明背景到应用停靠栏</string>
+    <!-- Background opacity -->
+    <string name="background_opacity_title">背景不透明度</string>
+    <!-- Stroke -->
+    <string name="stroke_width_title">轮廓型</string>
     <!-- Hotseat searchbar -->
     <string name="label_search">搜索</string>
     <string name="label_lens">谷歌镜头</string>
@@ -115,13 +124,9 @@
     <string name="dock_theme_title">主题图标</string>
     <string name="dock_theme_summary">为搜索栏使用主题图标</string>
     <string name="search_radius_title">圆角半径</string>
-    <!-- Hotseat Background -->
-    <string name="hotseat_bg_title">小部件背景</string>
-    <string name="hotseat_bg_summary">添加半透明背景到应用停靠栏</string>
-    <!-- Background opacity -->
-    <string name="background_opacity_title">背景不透明度</string>
-    <!-- Stroke -->
-    <string name="stroke_width_title">轮廓型</string>
+    <!-- App drawer searchbar -->
+    <string name="drawer_search_title">应用搜索栏</string>
+    <string name="drawer_search_summary">抽屉顶部搜索栏</string>
     <!-- Wallpaper scrolling -->
     <string name="allow_wallpaper_scrolling">壁纸滚动</string>
     <string name="allow_wallpaper_scrolling_summary">壁纸随屏幕滚动</string>
@@ -130,28 +135,21 @@
     <string name="allow_wallpaper_zooming_summary">上拉抽屉或最近应用时放大或缩小壁纸</string>
     <!-- Homescreen Statusbar -->
     <string name="show_statusbar_title">状态栏</string>
+    <string name="show_statusbar_title_summary">查看主屏幕时显示或隐藏状态栏</string>
     <!-- Top shadow -->
     <string name="show_top_shadow">顶部阴影</string>
+    <string name="show_top_shadow_summary">为状态栏添加半透明阴影</string>
     <!-- Memory info -->
     <string name="meminfo_text">%1$s 可用 | %2$s 总计</string>
     <string name="recents_meminfo_title">内存信息</string>
-    <string name="recents_meminfo_zram_title">内存信息</string>
+    <string name="recents_meminfo_zram_title">ZRAM 信息</string>
     <!-- Recents icons -->
     <string name="recents_screenshot_title">屏幕截图</string>
     <string name="recents_clear_all_title">清除所有</string>
     <string name="recents_lens_title">镜头</string>
-    <!-- Parallax -->
-    <string name="short_parallax_title">壁纸滚动</string>
-    <string name="short_parallax_summary">对数量较少的页面启用完整的壁纸滚动效果，而不是裁剪壁纸</string>
-    <string name="single_page_center_title">单页居中</string>
-    <string name="single_page_center_summary">如果只使用一个页面则居中壁纸</string>
-    <!-- App drawer searchbar -->
-    <string name="drawer_search_title">应用搜索栏</string>
-    <string name="drawer_search_summary">抽屉顶部搜索栏</string>
-    <!-- Auto keyboard -->
-    <string name="pref_auto_keyboard_title">自动展开键盘</string>
-    <string name="pref_auto_keyboard_summary">当抽屉展开时开始搜索</string>
     <!-- AppInfo -->
+    <string name="app_info_title">Application info</string>
+    <string name="app_info_version_value" translatable="false">%1$s (%2$d)</string>
     <string name="app_info_source">来源</string>
     <string name="app_info_source_system">系统</string>
     <string name="app_info_last_update">上一次更新：</string>
@@ -162,9 +160,20 @@
     <string name="icon_pack_default_label">默认</string>
     <string name="icon_pack_add">安装更多</string>
     <string name="icon_pack_no_market">没有可用的应用商店</string>
+    <!-- Parallax -->
+    <string name="short_parallax_title">壁纸滚动</string>
+    <string name="short_parallax_summary">对数量较少的页面启用完整的壁纸滚动效果，而不是裁剪壁纸</string>
+    <string name="single_page_center_title">单页居中</string>
+    <string name="single_page_center_summary">如果只使用一个页面则居中壁纸</string>
+    <!-- Open keyboard -->
+    <string name="drawer_open_keyboard_title">滑动即可开始搜索</string>
+    <string name="drawer_open_keyboard_summary">每当应用抽屉显示时自动调起键盘</string>
     <!-- App drawer scrollbar -->
     <string name="drawer_scrollbar_title">滚动条</string>
     <string name="drawer_scrollbar_summary">应用抽屉侧边滚动条</string>
+    <!-- Dark Status Bar -->
+    <string name="perf_dark_status_bar_title">暗色状态栏</string>
+    <string name="perf_dark_status_bar_summary">在主屏幕上始终使用暗色状态栏</string>
     <!-- QuickSpace -->
     <string name="show_quickspace_title">速览</string>
     <string name="show_quickspace_summary">在主屏幕的顶部显示</string>
@@ -337,7 +346,12 @@
         <item>在 Telegram 上和我们打招呼吧</item>
         <item>我们爱你 3000 遍</item>
     </string-array>
+    <string name="intent_no_app_clock_found">无法启动日历或时钟应用</string>
     <!-- QuickSpace: QuickEvent: Weather -->
+    <string name="quickspace_weather_provider_title">天气服务提供商</string>
+    <string name="quickspace_weather_provider_entry_auto">自动</string>
+    <string name="quickspace_weather_provider_entry_seraphix">谷歌智能空间</string>
+    <string name="quickspace_weather_provider_entry_omnijaws">OmniJaws</string>
     <string name="quick_event_ambient_weather_title">更新天气</string>
     <string name="quick_event_ambient_weather_summary">显示当前天气更新</string>
     <string name="quick_event_ambient_weather_enabled_info">需要启用天气服务</string>
@@ -352,5 +366,53 @@
     <string name="quick_event_weather_city_summary">显示当前位置天气</string>
     <string name="quick_event_weather_text_title">当前天气状况</string>
     <string name="quick_event_weather_text_summary">显示当前天气状况摘要</string>
-    <string name="intent_no_app_clock_found">找不到日历或时钟活动</string>
+    <!-- Themed icons toggle -->
+    <string name="themed_icons_title">主题图标</string>
+    <string name="themed_icons_summary_on">主题图标已启用</string>
+    <string name="themed_icons_summary_off">主题图标已禁用</string>
+    <!-- Themed icons toggle -->
+    <string name="ui_switcher_category_title">界面切换器</string>
+    <string name="ui_switcher_category_summary">在不同界面布局之间切换</string>
+    <string name="current_selection">当前选中项</string>
+    <string name="layout_switcher_title">列布局</string>
+    <string name="layout_switcher_summary">在单列与双列布局之间切换</string>
+    <string name="ui_layout_option_default">默认</string>
+    <string name="ui_layout_option_right_icon">右侧图标</string>
+    <string name="ui_layout_option_wallpaper_preview">壁纸预览</string>
+    <string name="ui_layout_option_small_icon">小图标</string>
+    <string name="ui_layout_option_left_icon">左侧图标</string>
+    <string name="ui_layout_option_rising">Rising</string>
+    <string-array name="ui_layout_options">
+        <item>@string/ui_layout_option_default</item>
+        <item>@string/ui_layout_option_right_icon</item>
+        <item>@string/ui_layout_option_wallpaper_preview</item>
+        <item>@string/ui_layout_option_small_icon</item>
+        <item>@string/ui_layout_option_left_icon</item>
+        <item>@string/ui_layout_option_rising</item>
+    </string-array>
+
+    <string-array name="ui_layout_keys">
+        <item>launcher_preferences</item>
+        <item>preference_card</item>
+        <item>preference_card_wallpaperview</item>
+        <item>preference_card_smallicon</item>
+        <item>preference_card_left</item>
+        <item>preference_card_rising</item>
+    </string-array>
+
+    <!-- About -->
+    <string name="about_launcher_version">3.0.0</string>
+    <string name="about_credits_title">基于以下贡献者开发</string>
+    <string name="about_version_title">Ortus 版本</string>
+    <string name="about_version_developer">risingOS 团队</string>
+    <!-- Widgets -->
+    <string name="widget_battery_title">电池小部件</string>
+    <string name="widget_photo_title">照片小部件</string>
+    <string name="widget_wifi_title">WiFi 小部件</string>
+    <string name="widget_data_title">数据网络小部件</string>
+    <string name="widget_bt_title">蓝牙小部件</string>
+    <string name="photo_widget_onboarding">点击添加新照片</string>
+    <!-- Background blur at app launch-->
+    <string name="pref_blur_background_at_app_launch_title">应用启动时背景模糊</string>
+    <string name="pref_blur_background_at_app_launch_summary">应用启动时对背景进行模糊处理</string>
 </resources>
